@@ -1,10 +1,11 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from 'Hakathon-main\src\src\Screens\HomeScreen.js';
+import HomeScreen from '../screens/HomeScreen';
 import AccountsScreen from '../screens/AccountsScreen';
-import PaymentScreen from 'Hakathon-main\src\src\Screens\PaymentScreen.js';
-import DonationScreen from 'Hakathon-main\src\src\Screens\DonationScreen.js';
-import RecurringPaymentsScreen from 'Hakathon-main\src\src\Screens\RecurringPaymentsScreen.js';
+import PaymentScreen from '../screens/PaymentScreen';
+import DonationScreen from '../screens/DonationScreen';
+import RecurringPaymentsScreen from '../screens/RecurringPaymentsScreen';
+
 
 const Stack = createStackNavigator();
 
